@@ -427,3 +427,30 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# =========================
+# PROJET DATA SCIENCE
+# =========================
+
+# Environnements Python
+venv/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Données
+data/
+*.csv
+*.xlsx
+
+# Modèles ML
+*.pkl
+*.joblib
+*.h5
+
+# Fichiers inutiles
+__pycache__/
+*.pyc
+.DS_Store
+data/train.csv
